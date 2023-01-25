@@ -1,0 +1,186 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+  position: relative;
+}
+
+.nav-bar{
+  background: #ecedee;
+  padding: 0px 20px;
+  display: flex;
+  font-size: 1.5rem;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#sistema{
+  text-decoration: none;
+  color: black;
+  padding: 0;
+}
+
+#navBtnContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btnCerrarSesion{
+  border: none;
+  background: rgb(0, 89, 173);
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px 12px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  font-weight: bold;
+  color: white;
+}
+
+#btnCerrar{
+  display: flex;
+  margin: 10px 10px 10px 10px;
+}
+
+.btnCerrarSesion:hover{
+  background: rgb(2, 61, 116);
+}
+
+#navBtnContainer a{
+  margin: 0;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+#btnMenu{
+  cursor: pointer;
+  padding: 10px;
+  font-size: 1.8rem;
+}
+
+.menu, .submenu{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu{
+  background: #c7c7c7;
+  width: 100%;
+  margin-left: -150%;
+  transition: all 0.5s;
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid rgb(0, 89, 173);
+}
+
+.menu__link:hover{
+  background: #9c9c9c;
+}
+
+.submenu .menu__link:hover:hover{
+  background: #9c9c9c;
+}
+
+.menu__link{
+  display: block;
+  padding: 15px;
+  color: black;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.submenu{
+  height: 0px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.submenu .menu__link{
+  background: #adadad;
+  padding-left: 40px;
+}
+
+.mostrar{
+  margin-left: 0;
+}
+
+.sistema{
+  display: none;
+}
+
+.rolManager, .rolAdmin{
+  display: none;
+}
+
+img{
+  width: 15px;
+  
+}
+
+
+@media(min-width:750px){
+  .nav-bar{
+    display: none;
+  }
+
+  #btnCerrar{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: block;
+    margin: 0;
+  }
+
+  .menu{
+    margin-left: 0;
+    display: flex;
+    position: relative;
+    background: #ecedee;
+  }
+
+  .container-submenu{
+    position: relative;
+  }
+
+  .submenu{
+    position: absolute;
+    top: 53px;
+    width: 200px;
+    overflow: visible;
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 10px;
+  }
+
+  .submenu .menu__link{
+    background: #d1d1d1;
+    padding-left: 10px;
+  }
+
+  .menu__link:hover{
+    background: #e0e0e0;
+  }
+  
+  .submenu .menu__link:hover:hover{
+    background: #b9b9b9;
+  }
+
+  .container-submenu:hover .submenu{
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .sistema{
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+}

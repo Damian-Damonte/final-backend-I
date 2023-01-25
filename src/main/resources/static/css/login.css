@@ -1,0 +1,183 @@
+:root {
+  --primary2: rgb(0, 89, 173);
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html{
+  background: #f8f9fa;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#myVideo {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#marca{
+  color: white;
+}
+
+#marca h1{
+  font-size: 5vw;
+  text-align: center;
+}
+
+#marca h3{
+  font-size: 3vh;
+  text-align: center;
+  width: 100%;
+  font-weight: 500;
+}
+
+form {
+  background-color: white;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 3rem;
+  border: solid 1px var(--primary2);
+  height: 70vh;
+}
+
+form h2{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.fila {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.fila input {
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 16px;
+  height: 40px;
+}
+
+.fila label{
+  font-weight: bold;
+  color: #303030;
+}
+
+form button {
+  font-family: 'Roboto Mono', monospace, sans-serif;
+  padding: 10px;
+  margin: 30px 0;
+  font-size: 1.2rem;
+  border: none;
+  background-color: var(--primary2);
+  color: white;
+  cursor: pointer;
+}
+
+form button span{
+  font-family: 'Roboto Mono', monospace, sans-serif;
+}
+
+form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+form button:hover{
+  background-color: rgb(2, 61, 116);
+}
+
+.incorrecto{
+  color: red;
+  font-size: 14px;
+  display: none;
+}
+
+.inputError{
+  border: 2px solid red;
+}
+
+/* SPINNER */
+
+.spinner {
+  border: 3px solid rgba(0, 0, 0, 0.9);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border-left-color: rgb(255, 255, 255);
+  animation: spin 1s ease infinite;
+  margin: auto;
+  /* position: absolute; */
+}
+
+@keyframes spin {
+  0% {
+  transform: rotate(0deg);
+  }
+
+  100% {
+  transform: rotate(360deg);
+  }
+}
+
+.disabled {
+  display: none;
+}
+
+@media(max-width:900px){
+  body{
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+    padding: 0px;
+  }
+  #marca h1{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #marca h3{
+    font-size: 3vh;
+    text-align: center;
+    width: 100%;
+    font-weight: 500;
+  }
+
+  form{
+    padding: 10px 25px;
+    height: auto;
+  }
+
+  form h2{
+    margin-bottom: 10px;
+  }
+
+  .fila{
+    margin: 5px 0;
+  }
+
+
+}

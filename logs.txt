@@ -1,0 +1,213 @@
+[2022-10-1016:39:08] [ ERROR] [GlobalExceptionHandler:46] org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+[2022-10-1016:39:14] [ ERROR] [GlobalExceptionHandler:52] org.springframework.security.authentication.InternalAuthenticationServiceException: No default constructor for entity:  : com.example.C22C.entity.Usuario; nested exception is org.hibernate.InstantiationException: No default constructor for entity:  : com.example.C22C.entity.Usuario
+[2022-10-1115:45:58] [ ERROR] [JwtTokenUtil:50] Invalid JWT token: Unable to read JSON value: {"alg":"HQ���ȉ
+[2022-10-1115:53:02] [ ERROR] [GlobalExceptionHandler:52] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1115:56:30] [ ERROR] [GlobalExceptionHandler:53] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1116:03:32] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1116:06:27] [ ERROR] [JwtTokenUtil:48] Invalid JWT signature: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+[2022-10-1116:13:49] [ ERROR] [JwtTokenUtil:48] Invalid JWT signature: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+[2022-10-1116:14:35] [ ERROR] [JwtTokenUtil:48] Invalid JWT signature: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+[2022-10-1116:34:08] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1116:50:07] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1116:50:17] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1116:55:18] [ ERROR] [JwtTokenUtil:48] Invalid JWT signature: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+[2022-10-1117:05:40] [ ERROR] [GlobalExceptionHandler:60] org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Cannot invoke "com.example.C22C.entity.RolUsuario.name()" because "this.usuarioRol" is null; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Cannot invoke "com.example.C22C.entity.RolUsuario.name()" because "this.usuarioRol" is null (through reference chain: java.util.ArrayList[1]->com.example.C22C.entity.Usuario["authorities"])
+[2022-10-1117:07:27] [ ERROR] [GlobalExceptionHandler:36] org.springframework.dao.DataIntegrityViolationException: not-null property references a null or transient value : com.example.C22C.entity.Usuario.usuarioRol; nested exception is org.hibernate.PropertyValueException: not-null property references a null or transient value : com.example.C22C.entity.Usuario.usuarioRol
+[2022-10-1117:08:20] [ ERROR] [GlobalExceptionHandler:36] org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.example.C22C.entity.RolUsuario` from String "ROLE_MANAVGER": not one of the values accepted for Enum class: [ROLE_USER, ROLE_ADMIN, ROLE_MANAGER]; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `com.example.C22C.entity.RolUsuario` from String "ROLE_MANAVGER": not one of the values accepted for Enum class: [ROLE_USER, ROLE_ADMIN, ROLE_MANAGER]
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 4, column: 18] (through reference chain: com.example.C22C.security.payload.RegisterRequest["usuarioRol"])
+[2022-10-1117:10:57] [ ERROR] [GlobalExceptionHandler:30] com.example.C22C.exception.BadRequestException: Odontologo con id 3 no encontrado
+Paciente con id 8 no encontrado
+[2022-10-1117:12:28] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1117:15:29] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1117:15:48] [ ERROR] [JwtTokenUtil:52] JWT token is expired: JWT expired at 2022-10-11T17:04:44Z. Current time: 2022-10-11T17:15:48Z, a difference of 664607 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2022-10-1117:16:14] [ ERROR] [JwtTokenUtil:52] JWT token is expired: JWT expired at 2022-10-11T17:04:44Z. Current time: 2022-10-11T17:16:14Z, a difference of 690261 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2022-10-1117:16:44] [ ERROR] [JwtTokenUtil:50] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+[2022-10-1217:37:18] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1217:40:42] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1217:41:52] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1217:43:17] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1217:44:47] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1217:46:41] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1217:46:55] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1217:47:25] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1217:47:51] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1217:48:21] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1217:49:54] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1217:53:54] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1217:54:08] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:01:07] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:01:22] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:01:29] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:01:44] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:02:06] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:03:03] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:03:11] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:03:15] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:03:15] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:03:15] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:03:15] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:03:15] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:03:16] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:03:16] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:03:17] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:03:17] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:03:18] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:03:19] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:03:20] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:03:21] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:12:43] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:17:50] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:17:58] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:17:59] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:17:59] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:18:00] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:18:01] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:18:01] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:18:02] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:18:02] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:18:03] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:18:04] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:18:05] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:18:24] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:18:28] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:18:38] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:18:44] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:18:47] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:18:50] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:18:58] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:19:12] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:19:16] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:19:28] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:19:31] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:19:34] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:19:52] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:19:55] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:20:03] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:20:06] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:20:09] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:20:15] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:20:18] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:20:25] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:20:36] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:20:39] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:20:42] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:21:02] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:21:08] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:21:12] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:21:15] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:21:18] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:21:21] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:21:26] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:21:29] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:21:32] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:22:32] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:22:35] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:22:40] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:22:43] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:22:46] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:22:56] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:22:57] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:23:29] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:23:31] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:23:45] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:23:50] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:23:51] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:23:54] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:23:57] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:23:58] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:23:59] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:23:59] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:24:00] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:24:00] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:24:01] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:24:02] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:24:02] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:24:20] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:24:23] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:24:29] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:24:32] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:24:37] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:24:53] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:24:57] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:25:00] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:25:05] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:25:09] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:26:04] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:27:08] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:27:12] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:28:17] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:28:25] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:28:30] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:28:35] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:28:39] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:29:14] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:30:02] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:30:03] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:30:04] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:30:04] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:30:05] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:30:19] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:30:23] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:30:27] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:30:31] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:30:35] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:43:11] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:43:20] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:45:58] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:51:11] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1218:57:06] [ ERROR] [JwtTokenUtil:45] JWT token is expired: JWT expired at 2022-10-12T05:15:40Z. Current time: 2022-10-12T18:57:06Z, a difference of 49286234 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2022-10-1219:51:25] [ ERROR] [JwtTokenUtil:43] Invalid JWT token: Unable to read JSON value: ~�&�q؎���LL��
+[2022-10-1219:51:37] [ ERROR] [JwtTokenUtil:43] Invalid JWT token: Unable to read JSON value: ~�&�q؎���LL��
+[2022-10-1219:51:53] [ ERROR] [JwtTokenUtil:43] Invalid JWT token: Unable to read JSON value: ~�&�q؎���LL��
+[2022-10-1219:51:56] [ ERROR] [JwtTokenUtil:43] Invalid JWT token: Unable to read JSON value: ~�&�q؎���LL��
+[2022-10-1219:52:20] [ ERROR] [JwtTokenUtil:43] Invalid JWT token: Unable to read JSON value: ~�&�q؎���LL��
+[2022-10-1219:52:23] [ ERROR] [JwtTokenUtil:43] Invalid JWT token: Unable to read JSON value: ~�&�q؎���LL��
+[2022-10-1219:53:06] [ ERROR] [JwtTokenUtil:43] Invalid JWT token: Unable to read JSON value: ~�&�q؎���LL��
+[2022-10-1219:53:08] [ ERROR] [JwtTokenUtil:43] Invalid JWT token: Unable to read JSON value: ~�&�q؎���LL��
+[2022-10-1219:53:11] [ ERROR] [JwtTokenUtil:43] Invalid JWT token: Unable to read JSON value: ~�&�q؎���LL��
+[2022-10-1219:59:49] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1219:59:58] [ ERROR] [JwtTokenUtil:45] JWT token is expired: JWT expired at 2022-10-12T05:15:40Z. Current time: 2022-10-12T19:59:58Z, a difference of 53058956 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2022-10-1315:10:42] [ ERROR] [JwtTokenUtil:41] Invalid JWT signature: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+[2022-10-1318:43:08] [ ERROR] [JwtTokenUtil:45] JWT token is expired: JWT expired at 2022-10-13T08:00:08Z. Current time: 2022-10-13T18:43:08Z, a difference of 38580025 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2022-10-1318:43:23] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1318:56:28] [ ERROR] [JwtTokenUtil:43] Invalid JWT token: Unable to read JSON value: {"alg":"HQ���ȉ
+[2022-10-1318:57:20] [ ERROR] [JwtTokenUtil:43] Invalid JWT token: Unable to read JSON value: {"amќ��!L��ȉ
+[2022-10-1319:04:08] [ ERROR] [GlobalExceptionHandler:48] org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+[2022-10-1319:11:13] [ ERROR] [GlobalExceptionHandler:48] org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+[2022-10-1319:16:18] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1319:41:59] [ ERROR] [GlobalExceptionHandler:48] org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+[2022-10-1319:42:43] [ ERROR] [GlobalExceptionHandler:60] org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.time.LocalDate'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.PathVariable @org.springframework.format.annotation.DateTimeFormat java.time.LocalDate] for value 'o'; nested exception is java.lang.IllegalArgumentException: Parse attempt failed for value [o]
+[2022-10-1319:43:28] [ ERROR] [GlobalExceptionHandler:60] org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "o"
+[2022-10-1319:43:35] [ ERROR] [GlobalExceptionHandler:60] org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.time.LocalDate'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.PathVariable @org.springframework.format.annotation.DateTimeFormat java.time.LocalDate] for value '0'; nested exception is java.lang.IllegalArgumentException: Parse attempt failed for value [0]
+[2022-10-1319:43:56] [ ERROR] [GlobalExceptionHandler:60] org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.time.LocalDate'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.PathVariable @org.springframework.format.annotation.DateTimeFormat java.time.LocalDate] for value '0'; nested exception is java.lang.IllegalArgumentException: Parse attempt failed for value [0]
+[2022-10-1319:46:03] [ ERROR] [GlobalExceptionHandler:60] org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.time.LocalDate'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.PathVariable @org.springframework.format.annotation.DateTimeFormat java.time.LocalDate] for value '0'; nested exception is java.lang.IllegalArgumentException: Parse attempt failed for value [0]
+[2022-10-1319:46:36] [ ERROR] [GlobalExceptionHandler:60] org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.time.LocalDate'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.PathVariable @org.springframework.format.annotation.DateTimeFormat java.time.LocalDate] for value '0'; nested exception is java.lang.IllegalArgumentException: Parse attempt failed for value [0]
+[2022-10-1319:46:52] [ ERROR] [GlobalExceptionHandler:60] org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.time.LocalDate'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.PathVariable @org.springframework.format.annotation.DateTimeFormat java.time.LocalDate] for value '0'; nested exception is java.lang.IllegalArgumentException: Parse attempt failed for value [0]
+[2022-10-1319:49:13] [ ERROR] [GlobalExceptionHandler:60] org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.time.LocalDate'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.PathVariable @org.springframework.format.annotation.DateTimeFormat java.time.LocalDate] for value '0'; nested exception is java.lang.IllegalArgumentException: Parse attempt failed for value [0]
+[2022-10-1319:53:47] [ ERROR] [GlobalExceptionHandler:60] org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.time.LocalDate'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.PathVariable @org.springframework.format.annotation.DateTimeFormat java.time.LocalDate] for value '0'; nested exception is java.lang.IllegalArgumentException: Parse attempt failed for value [0]
+[2022-10-1415:34:07] [ ERROR] [GlobalExceptionHandler:36] org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.Integer` from String "4254352534": Overflow: numeric value (4254352534) out of range of `java.lang.Integer` (-2147483648 -2147483647); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Integer` from String "4254352534": Overflow: numeric value (4254352534) out of range of `java.lang.Integer` (-2147483648 -2147483647)
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 82] (through reference chain: com.example.C22C.entity.Paciente["dni"])
+[2022-10-1416:24:03] [ ERROR] [JwtTokenUtil:45] JWT token is expired: JWT expired at 2022-10-12T05:15:40Z. Current time: 2022-10-14T16:24:03Z, a difference of 212903006 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2022-10-1416:25:33] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1416:25:44] [ ERROR] [JwtTokenUtil:45] JWT token is expired: JWT expired at 2022-10-12T05:15:40Z. Current time: 2022-10-14T16:25:44Z, a difference of 213004388 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2022-10-1416:55:58] [ ERROR] [GlobalExceptionHandler:36] org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.example.C22C.entity.RolUsuario` from String "ROLE_MANAGERE": not one of the values accepted for Enum class: [ROLE_USER, ROLE_ADMIN, ROLE_MANAGER]; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `com.example.C22C.entity.RolUsuario` from String "ROLE_MANAGERE": not one of the values accepted for Enum class: [ROLE_USER, ROLE_ADMIN, ROLE_MANAGER]
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 4, column: 18] (through reference chain: com.example.C22C.security.payload.RegisterRequest["usuarioRol"])
+[2022-10-1417:14:45] [ ERROR] [GlobalExceptionHandler:36] org.springframework.dao.DataIntegrityViolationException: not-null property references a null or transient value : com.example.C22C.entity.Usuario.password; nested exception is org.hibernate.PropertyValueException: not-null property references a null or transient value : com.example.C22C.entity.Usuario.password
+[2022-10-1417:17:42] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1417:24:38] [ ERROR] [GlobalExceptionHandler:36] org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.example.C22C.entity.RolUsuario` from String "ROLE_MANAGERS": not one of the values accepted for Enum class: [ROLE_USER, ROLE_ADMIN, ROLE_MANAGER]; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `com.example.C22C.entity.RolUsuario` from String "ROLE_MANAGERS": not one of the values accepted for Enum class: [ROLE_USER, ROLE_ADMIN, ROLE_MANAGER]
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 55] (through reference chain: com.example.C22C.entity.Usuario["usuarioRol"])
+[2022-10-1418:57:42] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1418:57:54] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1418:57:59] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1419:00:18] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1419:04:36] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1419:24:47] [ ERROR] [GlobalExceptionHandler:30] com.example.C22C.exception.BadRequestException: 
+Paciente con id 8 no encontrado
+[2022-10-1419:24:48] [ ERROR] [GlobalExceptionHandler:30] com.example.C22C.exception.BadRequestException: 
+Paciente con id 8 no encontrado
+[2022-10-1420:33:34] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1613:57:25] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1615:14:20] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1615:14:23] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1615:14:25] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials
+[2022-10-1615:14:27] [ ERROR] [GlobalExceptionHandler:54] org.springframework.security.authentication.BadCredentialsException: Bad credentials

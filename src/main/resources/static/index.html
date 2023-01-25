@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login.css">
+    <script src="https://kit.fontawesome.com/9b7b301855.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/jpg" href="/img/favicon.png"/>
+    <title>Login</title>
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="img/video_dentist.mp4" type="video/mp4">
+    </video>
+
+    <div id="marca">
+      <h1><i class="fa-solid fa-tooth"></i> Teeth King</h1>
+      <h3>Clínica odontológica n° 1 de Argentina</h3>
+    </div>
+
+      <form action="" id="formulario">
+        <div class="fila">
+          <h2 class="titulo">Login</h2>
+        </div>
+        <div class="fila">
+          <label for="username">Username</label>
+          <input type="text" id="username">
+          <span class="incorrecto">Debe ingresar un username</span>
+        </div>
+        <div class="fila">
+          <label for="contrasenia">Contraseña</label>
+          <input type="password" id="contrasenia">
+          <span class="incorrecto">Debe ingresar una contraseña</span>
+        </div>
+
+        <button type="submit">
+          <span id="ingresar">Ingresar</span>
+          <div class="spinner disabled"></div>
+        </button>
+      </form>
+
+    <script src="/js/login.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>

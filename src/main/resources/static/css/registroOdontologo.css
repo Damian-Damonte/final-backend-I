@@ -1,0 +1,84 @@
+:root {
+  --primary2: rgb(0, 89, 173);
+}
+
+
+html{
+  background: #f8f9fa;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.contenedor{
+  background: #f8f9fa;
+  margin-top: 50px;
+}
+
+form {
+  background-color: white;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 3rem;
+  margin: auto;
+  border: solid 1px var(--primary2);
+}
+
+.fila {
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.fila input,select {
+  margin-top: 3px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+form button {
+  font-family: 'Roboto Mono', monospace, sans-serif;
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 1.2rem;
+  border: none;
+  background-color: var(--primary2);
+  color: white;
+  cursor: pointer;
+}
+
+form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+form button:hover{
+  background-color: rgb(2, 61, 116);
+}
+
+.incorrecto{
+  color: red;
+  font-size: 14px;
+  display: none;
+}
+
+.inputError{
+  border: 2px solid red;
+}
+
+
+@media(max-width:400px){
+  h2{
+    font-size: 25px;
+  }
+
+  form{
+    padding: 25px;
+  }
+}

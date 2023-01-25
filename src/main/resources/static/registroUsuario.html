@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/navbar.css">
+  <link rel="stylesheet" href="/css/registroOdontologo.css">
+  <script src="https://kit.fontawesome.com/9b7b301855.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/jpg" href="/img/favicon.png"/>
+  <title>Document</title>
+</head>
+<body>
+
+  <header>
+    <div class="nav-bar" >
+      <a id="sistema" href="/inicio.html">Sistema</a>
+      <div id="navBtnContainer">
+        <i id="btnMenu" class="fa-sharp fa-solid fa-bars"></i></div>
+    </div>
+    <nav class="main-nav">
+      <ul class="menu" id="menu">
+        <li class="menu__item"><a href="/inicio.html" class="menu__link sistema">Sistema</a></li>
+        <li class="menu__item container-submenu rolManager">
+          <a href="#" class="menu__link subMenu-btn">Odontologos <i class="fa-solid fa-chevron-down"></i></a>
+          <ul class="submenu">
+            <li class="menu__item"><a href="/listOdontologos.html" class="menu__link submenu_item">Listar odontologos</a></li>
+            <li class="menu__item"><a href="/registroOdontologo.html" class="menu__link submenu_item">Agregar odontologos</a></li>
+          </ul>
+        </li>
+        <li class="menu__item container-submenu rolManager">
+          <a href="#" class="menu__link subMenu-btn">Pacientes <i class="fa-solid fa-chevron-down"></i></a>
+          <ul class="submenu">
+            <li class="menu__item"><a href="/listPacientes.html" class="menu__link submenu_item">Listar pacientes</a></li>
+            <li class="menu__item"><a href="/registroPaciente.html" class="menu__link submenu_item">Agregar paciente</a></li>
+          </ul>
+        </li>
+        <li class="menu__item container-submenu">
+          <a href="#" class="menu__link subMenu-btn">Turnos <i class="fa-solid fa-chevron-down"></i></a>
+          <ul class="submenu">
+            <li class="menu__item"><a href="/listTurnos.html" class="menu__link submenu_item">Listar turnos</a></li>
+            <li class="menu__item"><a href="/registroTurno.html" class="menu__link submenu_item">Agregar turno</a></li>
+          </ul>
+        </li>
+        <li class="menu__item container-submenu rolAdmin">
+          <a href="#" class="menu__link subMenu-btn">Usuarios <i class="fa-solid fa-chevron-down"></i></a>
+          <ul class="submenu">
+            <li class="menu__item"><a href="/listUsuarios.html" class="menu__link submenu_item">Listar ususarios</a></li>
+            <li class="menu__item"><a href="/registroUsuario.html" class="menu__link submenu_item">Agregar usuario</a></li>
+          </ul>
+        </li>
+        <li id="btnCerrar"><button class="btnCerrarSesion">Cerrar sesion</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="contenedor">
+    <form action="" id="modificar">
+      <div class="fila">
+        <h2 class="titulo">Registro usuario</h2>
+      </div>
+      <div class="fila">
+          <label for="username">Username</label>
+          <input type="text" id="username">
+          <span class="incorrecto">Debe ingresar un username</span>
+      </div>
+      <div class="fila">
+          <label for="password">Password</label>
+          <input type="text" id="password">
+          <span class="incorrecto">Debe ingresar una password</span>
+      </div>
+      <div class="fila">
+        <label for="rol">Rol</label>
+        <select name="buscar" id="selectRol">
+          <option value="ROLE_USER" >USER</option>
+          <option value="ROLE_MANAGER">MANAGER</option>
+          <option value="ROLE_ADMIN">ADMIN</option>
+        </select>
+      </div>
+      <button type="submit">Registrar</button>
+    </form>
+  </div>
+  
+  <script src="/js/navbar.js"></script>
+  <script src="/js/registroUsuario.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

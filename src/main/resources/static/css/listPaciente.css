@@ -1,0 +1,371 @@
+:root {
+  --primary: rgb(0, 89, 173);
+  --secondary: rgb(0, 114, 221);
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#tableContainer{
+  width: 90%;
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+  margin: 20px 0px 10px 0px;
+}
+
+/* form buscarX */
+
+form#buscarX{
+  border: solid 1px var(--primary);
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content:center;
+  align-items: center;
+  gap: 10px;
+}
+
+form#buscarX label{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+form#buscarX select{
+  height: 35px;
+  font-size: 16px;
+  border: solid 1px var(--primary);
+}
+
+form#buscarX input{
+  height: 35px;
+  font-size: 16px;
+  padding: 5px;
+  border: solid 1px var(--primary);
+}
+
+form#buscarX button[type="submit"]{
+  background: var(--primary);
+  height: 35px;
+  width: 35px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+form#buscarX button[type="submit"]:hover{
+  background: rgb(2, 61, 116);
+}
+
+form#buscarX #btnMotrarTodos{
+  background: var(--primary);
+  height: 35px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 10px;
+  display: none;
+}
+
+form#buscarX #btnMotrarTodos:hover{
+  background: rgb(2, 61, 116);
+}
+
+/* table */
+
+#tableContainer2{
+  overflow-x: auto;
+}
+
+table{
+  width: 100%;
+  display: table;
+  max-width: 900px;
+  margin: 0 auto 10px;
+  text-align: center;
+  border-collapse: collapse;
+  border: solid 1px rgb(0, 89, 173);
+}
+
+th, td{
+  padding: 15px;
+}
+
+thead{
+  background: var(--primary);
+  color: white;
+  font-size: 20px;
+}
+
+#fecha{
+  min-width: 115px;
+}
+
+.celtaCambio{
+  width: 40px;
+}
+
+.btnCambioTable{
+  border: none;
+  padding: 7px;
+  width: 35px;
+  height: 35px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.btnCambioTable:hover{
+  background: rgb(235, 235, 235);
+}
+
+.btnCambioTableMobile{
+  display: none;
+  border: 1px solid var(--primary);
+  margin: 0 auto 10px;
+}
+
+.iEliminar{
+  font-size: 20px;
+}
+
+tr:nth-child(even){
+  background:rgb(240, 239, 239);
+}
+
+tr:hover td{
+  background: rgb(218, 231, 250);
+}
+
+/* extra estilos botones modificar y eliminar*/
+
+.tdAcciones{
+  text-align: center;
+  padding: 0; 
+}
+
+table button{
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: auto;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.btnModificar{
+  background: var(--primary);
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+.btnModificar:hover{
+  background: rgb(2, 61, 116);
+}
+
+.btnEliminar{
+  background: red;
+  padding: 6px;
+  margin: 5px;
+}
+.btnEliminar:hover{
+  background: rgb(199, 2, 2);
+}
+
+
+/* form modificar*/
+
+form#modificar {
+  background-color: white;
+  width: 100%;
+  max-width: 900px;
+  display: none;
+  flex-direction: column;
+  margin: 20px auto;
+  border: solid 1px rgb(0, 89, 173);
+  padding: 30px 80px;
+  transition: all ease 1s;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.inputContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputInfo{
+  width: 45%;
+}
+
+input{
+  font-size: 16px;
+}
+
+.fila {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.fila input,select {
+  margin-top: 3px;
+  padding: 5px;
+}
+
+form#modificar button {
+  font-family: 'Roboto Mono', monospace, sans-serif;
+  padding: 10px;
+  margin: 40px auto 0px auto;
+  font-size: 1.2rem;
+  border: none;
+  background-color: var(--primary);
+  color: white;
+  cursor: pointer;
+  max-width: 500px;
+  min-width: 300px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+form#modificar button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+form#modificar button:hover{
+  background-color: rgb(2, 61, 116);
+}
+
+.incorrecto{
+  color: red;
+  font-size: 14px;
+  display: none;
+}
+
+.inputError{
+  border: 2px solid red;
+}
+
+.disabled{
+  display: none;
+}
+
+@media(max-width:850px){
+  th, td{
+    padding: 10px;
+  }
+  
+  thead{
+    font-size: 16px;
+  }
+}
+
+@media(max-width:700px){
+  form#modificar {
+    padding: 30px 30px;
+  }
+
+  .btnCambioTable{
+    display: none;
+  }
+
+  .btnCambioTableMobile{
+    display: block;
+  }
+
+  .disabled{
+    display: none;
+  }
+}
+
+@media(max-width:550px){
+  form#buscarX{
+    grid-template-columns: auto auto;
+    grid-template-areas:
+    "area1 area2"
+    "area3 area3"
+    "area4 area4";
+    padding: 20px 5px;
+  }
+
+  form#buscarX label{
+    font-size: 18px;
+    justify-self: end;
+    grid-area: area1;
+    text-align: center;
+  }
+  
+  form#buscarX select{
+    width: 100px;
+    grid-area: area2;
+  }
+  
+  form#buscarX input{
+    width: calc(100% - 45px);
+    grid-area: area3;
+  }
+  
+  form#buscarX button[type="submit"]{
+    grid-area: area3;
+    justify-self: end;
+  }
+  
+  form#buscarX #btnMotrarTodos{
+    grid-area: area4;
+  }
+
+  /* TABLE RESPONSIVE */
+  th, td{
+    padding: 5px;
+  }
+
+  @media(max-width:450px){
+    form#modificar {
+      padding: 30px 10px;
+    }
+
+    .inputContainer{
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .inputInfo{
+      width: 90%;
+    }
+  
+    form#modificar button {
+      min-width: auto;
+      width: 90%;
+    }
+    
+  }
+}
